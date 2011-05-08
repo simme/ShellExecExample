@@ -1,0 +1,3 @@
+Executes a shell command without opening the Terminal.app, the command has access to the users full shell environment.
+
+Using https://github.com/hugowetterberg/HWReadEnv to set the environment.
