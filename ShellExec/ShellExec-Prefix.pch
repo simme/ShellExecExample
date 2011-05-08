@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ShellExec' target in the 'ShellExec' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

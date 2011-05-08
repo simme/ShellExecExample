@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65EB8F3B1376A96E008C152E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EB8F3A1376A96E008C152E /* Cocoa.framework */; };
+		65EB8F451376A96E008C152E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65EB8F431376A96E008C152E /* InfoPlist.strings */; };
+		65EB8F481376A96E008C152E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EB8F471376A96E008C152E /* main.m */; };
+		65EB8F4B1376A96E008C152E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 65EB8F491376A96E008C152E /* Credits.rtf */; };
+		65EB8F4E1376A96E008C152E /* ShellExecAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EB8F4D1376A96E008C152E /* ShellExecAppDelegate.m */; };
+		65EB8F511376A96E008C152E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EB8F4F1376A96E008C152E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65EB8F361376A96E008C152E /* ShellExec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShellExec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EB8F3A1376A96E008C152E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		65EB8F3D1376A96E008C152E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		65EB8F3E1376A96E008C152E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		65EB8F3F1376A96E008C152E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65EB8F421376A96E008C152E /* ShellExec-Info.plist */ = {isa = PBXFileReference; path = "ShellExec-Info.plist"; sourceTree = "<group>"; };
+		65EB8F441376A96E008C152E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65EB8F461376A96E008C152E /* ShellExec-Prefix.pch */ = {isa = PBXFileReference; path = "ShellExec-Prefix.pch"; sourceTree = "<group>"; };
+		65EB8F471376A96E008C152E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65EB8F4A1376A96E008C152E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		65EB8F4C1376A96E008C152E /* ShellExecAppDelegate.h */ = {isa = PBXFileReference; path = ShellExecAppDelegate.h; sourceTree = "<group>"; };
+		65EB8F4D1376A96E008C152E /* ShellExecAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellExecAppDelegate.m; sourceTree = "<group>"; };
+		65EB8F501376A96E008C152E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65EB8F331376A96E008C152E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EB8F3B1376A96E008C152E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65EB8F2B1376A96E008C152E = {
+			isa = PBXGroup;
+			children = (
+				65EB8F401376A96E008C152E /* ShellExec */,
+				65EB8F391376A96E008C152E /* Frameworks */,
+				65EB8F371376A96E008C152E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65EB8F371376A96E008C152E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65EB8F361376A96E008C152E /* ShellExec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65EB8F391376A96E008C152E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65EB8F3A1376A96E008C152E /* Cocoa.framework */,
+				65EB8F3C1376A96E008C152E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65EB8F3C1376A96E008C152E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65EB8F3D1376A96E008C152E /* AppKit.framework */,
+				65EB8F3E1376A96E008C152E /* CoreData.framework */,
+				65EB8F3F1376A96E008C152E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		65EB8F401376A96E008C152E /* ShellExec */ = {
+			isa = PBXGroup;
+			children = (
+				65EB8F4C1376A96E008C152E /* ShellExecAppDelegate.h */,
+				65EB8F4D1376A96E008C152E /* ShellExecAppDelegate.m */,
+				65EB8F4F1376A96E008C152E /* MainMenu.xib */,
+				65EB8F411376A96E008C152E /* Supporting Files */,
+			);
+			path = ShellExec;
+			sourceTree = "<group>";
+		};
+		65EB8F411376A96E008C152E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65EB8F421376A96E008C152E /* ShellExec-Info.plist */,
+				65EB8F431376A96E008C152E /* InfoPlist.strings */,
+				65EB8F461376A96E008C152E /* ShellExec-Prefix.pch */,
+				65EB8F471376A96E008C152E /* main.m */,
+				65EB8F491376A96E008C152E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65EB8F351376A96E008C152E /* ShellExec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65EB8F541376A96E008C152E /* Build configuration list for PBXNativeTarget "ShellExec" */;
+			buildPhases = (
+				65EB8F321376A96E008C152E /* Sources */,
+				65EB8F331376A96E008C152E /* Frameworks */,
+				65EB8F341376A96E008C152E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShellExec;
+			productName = ShellExec;
+			productReference = 65EB8F361376A96E008C152E /* ShellExec.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65EB8F2D1376A96E008C152E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Good Old";
+			};
+			buildConfigurationList = 65EB8F301376A96E008C152E /* Build configuration list for PBXProject "ShellExec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65EB8F2B1376A96E008C152E;
+			productRefGroup = 65EB8F371376A96E008C152E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65EB8F351376A96E008C152E /* ShellExec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65EB8F341376A96E008C152E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EB8F451376A96E008C152E /* InfoPlist.strings in Resources */,
+				65EB8F4B1376A96E008C152E /* Credits.rtf in Resources */,
+				65EB8F511376A96E008C152E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65EB8F321376A96E008C152E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EB8F481376A96E008C152E /* main.m in Sources */,
+				65EB8F4E1376A96E008C152E /* ShellExecAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65EB8F431376A96E008C152E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EB8F441376A96E008C152E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65EB8F491376A96E008C152E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EB8F4A1376A96E008C152E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		65EB8F4F1376A96E008C152E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EB8F501376A96E008C152E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65EB8F521376A96E008C152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		65EB8F531376A96E008C152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		65EB8F551376A96E008C152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShellExec/ShellExec-Prefix.pch";
+				INFOPLIST_FILE = "ShellExec/ShellExec-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65EB8F561376A96E008C152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShellExec/ShellExec-Prefix.pch";
+				INFOPLIST_FILE = "ShellExec/ShellExec-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65EB8F301376A96E008C152E /* Build configuration list for PBXProject "ShellExec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EB8F521376A96E008C152E /* Debug */,
+				65EB8F531376A96E008C152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65EB8F541376A96E008C152E /* Build configuration list for PBXNativeTarget "ShellExec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EB8F551376A96E008C152E /* Debug */,
+				65EB8F561376A96E008C152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65EB8F2D1376A96E008C152E /* Project object */;
+}
