@@ -13,6 +13,10 @@
 		65EB8F4B1376A96E008C152E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 65EB8F491376A96E008C152E /* Credits.rtf */; };
 		65EB8F4E1376A96E008C152E /* ShellExecAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EB8F4D1376A96E008C152E /* ShellExecAppDelegate.m */; };
 		65EB8F511376A96E008C152E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EB8F4F1376A96E008C152E /* MainMenu.xib */; };
+		65EB8FC91376AE07008C152E /* HWReadEnv.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EB8F9F1376AE07008C152E /* HWReadEnv.m */; };
+		65EB8FCA1376AE07008C152E /* HWReadEnv.sh in Resources */ = {isa = PBXBuildFile; fileRef = 65EB8FA01376AE07008C152E /* HWReadEnv.sh */; };
+		65EB8FCB1376AE07008C152E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 65EB8FA11376AE07008C152E /* LICENSE */; };
+		65EB8FCC1376AE07008C152E /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 65EB8FA21376AE07008C152E /* README.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +25,19 @@
 		65EB8F3D1376A96E008C152E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		65EB8F3E1376A96E008C152E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		65EB8F3F1376A96E008C152E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		65EB8F421376A96E008C152E /* ShellExec-Info.plist */ = {isa = PBXFileReference; path = "ShellExec-Info.plist"; sourceTree = "<group>"; };
+		65EB8F421376A96E008C152E /* ShellExec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShellExec-Info.plist"; sourceTree = "<group>"; };
 		65EB8F441376A96E008C152E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65EB8F461376A96E008C152E /* ShellExec-Prefix.pch */ = {isa = PBXFileReference; path = "ShellExec-Prefix.pch"; sourceTree = "<group>"; };
+		65EB8F461376A96E008C152E /* ShellExec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShellExec-Prefix.pch"; sourceTree = "<group>"; };
 		65EB8F471376A96E008C152E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65EB8F4A1376A96E008C152E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		65EB8F4C1376A96E008C152E /* ShellExecAppDelegate.h */ = {isa = PBXFileReference; path = ShellExecAppDelegate.h; sourceTree = "<group>"; };
+		65EB8F4C1376A96E008C152E /* ShellExecAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellExecAppDelegate.h; sourceTree = "<group>"; };
 		65EB8F4D1376A96E008C152E /* ShellExecAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellExecAppDelegate.m; sourceTree = "<group>"; };
 		65EB8F501376A96E008C152E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		65EB8F9E1376AE07008C152E /* HWReadEnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWReadEnv.h; sourceTree = "<group>"; };
+		65EB8F9F1376AE07008C152E /* HWReadEnv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWReadEnv.m; sourceTree = "<group>"; };
+		65EB8FA01376AE07008C152E /* HWReadEnv.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = HWReadEnv.sh; sourceTree = "<group>"; };
+		65EB8FA11376AE07008C152E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		65EB8FA21376AE07008C152E /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +55,7 @@
 		65EB8F2B1376A96E008C152E = {
 			isa = PBXGroup;
 			children = (
+				65EB8F571376AE07008C152E /* HWReadEnv */,
 				65EB8F401376A96E008C152E /* ShellExec */,
 				65EB8F391376A96E008C152E /* Frameworks */,
 				65EB8F371376A96E008C152E /* Products */,
@@ -102,6 +112,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		65EB8F571376AE07008C152E /* HWReadEnv */ = {
+			isa = PBXGroup;
+			children = (
+				65EB8F9E1376AE07008C152E /* HWReadEnv.h */,
+				65EB8F9F1376AE07008C152E /* HWReadEnv.m */,
+				65EB8FA01376AE07008C152E /* HWReadEnv.sh */,
+				65EB8FA11376AE07008C152E /* LICENSE */,
+				65EB8FA21376AE07008C152E /* README.markdown */,
+			);
+			path = HWReadEnv;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +177,9 @@
 				65EB8F451376A96E008C152E /* InfoPlist.strings in Resources */,
 				65EB8F4B1376A96E008C152E /* Credits.rtf in Resources */,
 				65EB8F511376A96E008C152E /* MainMenu.xib in Resources */,
+				65EB8FCA1376AE07008C152E /* HWReadEnv.sh in Resources */,
+				65EB8FCB1376AE07008C152E /* LICENSE in Resources */,
+				65EB8FCC1376AE07008C152E /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +192,7 @@
 			files = (
 				65EB8F481376A96E008C152E /* main.m in Sources */,
 				65EB8F4E1376A96E008C152E /* ShellExecAppDelegate.m in Sources */,
+				65EB8FC91376AE07008C152E /* HWReadEnv.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

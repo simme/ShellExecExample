@@ -11,8 +11,17 @@
 @interface ShellExecAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    NSTextField *command;
+    NSDictionary *_env;
+    NSButton *button;
+    NSOperationQueue *q;
+    NSProgressIndicator *indicator;
 }
+@property (assign) IBOutlet NSProgressIndicator *indicator;
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSTextField *command;
+- (IBAction)execute:(id)sender;
+@property (assign) IBOutlet NSButton *button;
 
 @end

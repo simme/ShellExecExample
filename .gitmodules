@@ -1,0 +1,3 @@
+[submodule "HWReadEnv"]
+	path = HWReadEnv
+	url = https://github.com/hugowetterberg/HWReadEnv.git
